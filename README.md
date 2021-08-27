@@ -1,4 +1,6 @@
-
+1. Make a pizza website where user selects toppings and sizes
+2. Create a Pizza cosntructor 
+3. Make a prototype for the cost depending on the size
 # _{Pizza Parlor}_
 
 #### _{This application is created under the guidence of Epicodus}_
