@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,16 +8,32 @@
   <script src="js/scripts.js"></script>
   <title>Pizza Parlor</title>
 </head>
-<body>
-  
-  <h1>Welcome to Pizza Parlor</h1>
-  <h2>Add a Topping:</h2>
-  <form id="toppings">
-    <label for="first-topping">First topping</label>
-    <input type="radio" id="topping1" value="Mushrooms" checked>
 
+<body>
+
+  <h1>Welcome to Pizza Parlor</h1>
+
+
+  <form id="toppings">
+    <h3>Add a Topping:</h3>
+    <select name="toppings" id="topping" class="form-control"> 
+      <option value="1">Mushrooms</option>
+      <option value="2">Pinapple</option>
+      <option value="3">Jalapenos</option>
+      <option value="4">Spinach</option>
+    </select>
+  </form>
+
+  <form id="size">
+    <h3>Choose a Size</h3>
+    <select name="sizes" id="sizes" class="form-control">
+      <option value="size1">Small</option>
+      <option value="size2">Medium</option>
+      <option value="size3">Large</option>
+    </select>
   </form>
 
 
 </body>
+
 </html>
