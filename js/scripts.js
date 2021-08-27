@@ -11,18 +11,13 @@ class PizzaParlor {
 }
 
 
-
-
-
-
-
-
 //User Interface Logic
 $(document).ready(function() {
   $("form#toppings").submit(function(event) {
     event.preventDefault();
     const topping = $("#topping").val();
     const size = $("#size").val();
+    $("#total").show();
   });
 });
 
