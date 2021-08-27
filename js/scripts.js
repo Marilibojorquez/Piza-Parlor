@@ -1,11 +1,19 @@
 // Business Logic for Pizza Parlor
-function PizzaPArlor() {
+function PizzaParlor() {
   this.toppings = {};
   this.currentId = 0;
 }
 
-PizzaPArlor.prototype.addToppings = function(toppings) {
+PizzaParlor.prototype.addToppings = function(toppings) {
   toppings.id = this.assignId();
   this.toppings[toppings.id] = toppings;
 }
+
+
+
+
+
+
+
+//User Interface Logic
 
