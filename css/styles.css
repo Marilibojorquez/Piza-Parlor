@@ -1,0 +1,18 @@
+.container {
+  padding: 6px;
+  background-color: rgb(189, 119, 72);
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+  color: brown;
+  background-color: burlywood;
+}
+.btn-submit {
+  background-color: rgb(210, 51, 30);
+}
+
+h3 {
+  color: rgb(151, 77, 42);
+  font-family: cursive;
+}
