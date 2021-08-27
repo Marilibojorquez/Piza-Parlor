@@ -1,3 +1,6 @@
+canvas {
+  margin: center;
+}
 .container {
   padding: 6px;
   background-color: rgb(189, 119, 72);
